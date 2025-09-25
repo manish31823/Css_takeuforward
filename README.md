@@ -14,7 +14,7 @@ The implementation is **lightweight, reusable, and requires only 2 classes**, ma
 ---
 
 ## 🖼️ Demo Preview
-![Glass Effect Demo](thumbnail.png)
+![Glass Effect Demo]("C:\Users\Manish Chaudhary\OneDrive\Desktop\Glass Hero Section_Manish.html")
 
 ---
 
