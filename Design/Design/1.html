@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Glass Hero Section</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #0d0d0d;
+      font-family: Arial, sans-serif;
+      color: #fff;
+    }
+
+    .glass {
+      background: rgba(0, 0, 0, 0.6);
+      backdrop-filter: blur(16px) saturate(180%);
+      -webkit-backdrop-filter: blur(16px) saturate(180%);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 20px;
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.6);
+    }
+
+    .box {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 90%;
+      max-width: 1100px;
+      padding: 3rem;
+      gap: 2rem;
+    }
+
+    /* Left side text */
+    .left {
+      flex: 1;
+    }
+
+    .tag {
+      display: inline-block;
+      padding: 6px 14px;
+      border-radius: 999px;
+      font-size: 14px;
+      background: linear-gradient(145deg, #3a1d0e, #1f0f0a);
+      box-shadow: inset 2px 2px 6px rgba(0,0,0,0.7),
+                  inset -2px -2px 6px rgba(255,255,255,0.05);
+      margin-bottom: 1rem;
+    }
+
+    .left h1 {
+      font-size: 2.2rem;
+      font-weight: 700;
+      margin: 0.5rem 0;
+    }
+
+    .highlight {
+      color: #ff6b2d; /* Orange highlight */
+    }
+
+    .left p {
+      margin: 1rem 0;
+      color: rgba(255,255,255,0.8);
+      line-height: 1.6;
+    }
+
+    .buttons {
+      display: flex;
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+
+    .btn {
+      padding: 12px 20px;
+      border-radius: 10px;
+      border: none;
+      background: rgba(255,255,255,0.08);
+      color: white;
+      cursor: pointer;
+      transition: 0.3s;
+      box-shadow: inset 2px 2px 6px rgba(0,0,0,0.6),
+                  inset -2px -2px 6px rgba(255,255,255,0.05);
+    }
+
+    .btn:hover {
+      background: rgba(255,255,255,0.15);
+    }
+
+    /* Right side video */
+    .right {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .video {
+      width: 100%;
+      max-width: 500px;
+      border-radius: 12px;
+      overflow: hidden;
+      border: 1px solid rgba(255,255,255,0.1);
+      box-shadow: 0 6px 20px rgba(0,0,0,0.5);
+    }
+
+    .video img {
+      width: 100%;
+      display: block;
+    }
+
+    /* Caption + Play Button Section */
+    .caption-container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      color: white;
+      font-size: 16px;
+      font-weight: bold;
+      padding: 10px 5px;
+      background: #000;
+    }
+
+    .play-btn {
+      width: 26px;
+      height: 26px;
+      border-radius: 50%;
+      background: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: transform 0.3s;
+    }
+
+    .play-btn:hover {
+      transform: scale(1.1);
+    }
+
+    .play-btn:before {
+      content: '';
+      display: inline-block;
+      margin-left: 3px;
+      border-style: solid;
+      border-width: 6px 0 6px 10px;
+      border-color: transparent transparent transparent black;
+    }
+  </style>
+</head>
+<body>
+  <div class="glass box">
+    <!-- Left Content -->
+    <div class="left">
+      <div class="tag">Crafted by Top Engineers</div>
+      <h1><span class="highlight">ONE-STOP</span> Platform!</h1>
+      <h2>All Your Prep in One Place<br>One Plan. Zero Stress</h2>
+      <p>The most trusted platform for engineers to up-skill and crack tech interviews in the least time</p>
+      <div class="buttons">
+        <button class="btn">Explore offerings</button>
+        <button class="btn">Buy Now</button>
+      </div>
+    </div>
+
+    <!-- Right Content -->
+    <div class="right">
+      <div class="video">
+        <img src="thumbnail.png" alt="Video thumbnail">
+        <!-- Caption + Play button below thumbnail -->
+        <div class="caption-container">
+          <span>TUF+ Demo - One Stop Prep Platform!</span>
+          <div <img src="click.png"></div>  
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
